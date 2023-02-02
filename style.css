@@ -12,6 +12,7 @@
 
 a{
     color: skyblue;
+    text-decoration: none;
 }
 
 body{
@@ -39,6 +40,8 @@ section{
 
 h3{
 display: block;
+margin-bottom: 1rem;
+margin-top: 1rem;
 }
 /*SELECTIONS*/
 
@@ -48,22 +51,20 @@ display: block;
     clear: both;
 }
 
-.marco {
+.inbox {
     background-color: black;
     width: calc(100% / 3 - 20px);
     height: 100px;
     margin: 10px;
     float: left;
     color: white;
+    box-shadow: 10px 10px 5px black;
     }
 
-.marco img{
+.inbox img{
     float: left;
     height: 100px;
     margin-right: 20px;
-}
-h3{
-    margin-top: 10px;
 }
 
 
