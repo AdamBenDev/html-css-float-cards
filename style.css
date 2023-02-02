@@ -4,26 +4,54 @@
     box-sizing: border-box;
 }
 
-/*TEXT*/
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+
 body{
     background-color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-section{
-    text-align: center;
-    margin-right: 3rem;
-    margin-left: 3rem;
 }
 
 h1{
     text-align: center;
     color: #e53170;
+    margin: 2rem;
     
 }
 
-.description{
-    float:left
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
+/*Sections*/
 
+section{
+    height: 100px;
+    float: left;
+    margin-right: 16;
+    float: left;
+}
+.section img{
+    float: left;
+    margin-right: 16;
+}
 
+span{
+    color: red;
+}
+
+.Email{
+    color: skyblue;
+}
+.Laura{
+    color: white;
+}
+.Marco{
+    color: white;
+}
