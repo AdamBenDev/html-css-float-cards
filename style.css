@@ -8,8 +8,11 @@
     max-width: 1170px;
     margin: 0 auto;
 }
+/*GENERAL*/
 
-
+a{
+    color: skyblue;
+}
 
 body{
     background-color: white;
@@ -23,35 +26,44 @@ h1{
     
 }
 
+p{
+    text-align: center;
+}
+
+div{
+    display: block;
+}
+section{
+    padding: 100px;
+}
+
+h3{
+display: block;
+}
+/*SELECTIONS*/
+
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
 
-/*Sections*/
-
-section{
+.marco {
+    background-color: black;
+    width: calc(100% / 3 - 20px);
     height: 100px;
+    margin: 10px;
     float: left;
-    margin-right: 16;
+    color: white;
+    }
+
+.marco img{
     float: left;
+    height: 100px;
+    margin-right: 20px;
 }
-.section img{
-    float: left;
-    margin-right: 16;
+h3{
+    margin-top: 10px;
 }
 
-span{
-    color: red;
-}
 
-.Email{
-    color: skyblue;
-}
-.Laura{
-    color: white;
-}
-.Marco{
-    color: white;
-}
